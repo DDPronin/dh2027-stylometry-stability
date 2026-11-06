@@ -22,7 +22,7 @@ Run [03_figures.ipynb](03_figures.ipynb) against the supplied CSVs in [results/]
 
 The three original corpus archives are included in [data/raw/](data/raw/). The SHA-256 of [imdb62.zip](data/raw/imdb62.zip) is `88091d873ca90876304b3f11dd8bf27547fe238ef84ab526f065eedda5fb3d4e`.
 
-1. Run [01_preprocessing.ipynb](01_preprocessing.ipynb) to build the IMDb62 lemma counts and validate the supplied FreDraCor and RusLit9 matrices. Set REBUILD to True to regenerate all matrices. The fixed selection preserves source order and group membership. For IMDb62, the notebook reads the review and author identifiers locally from the original ZIP.
+1. Run [01_preprocessing.ipynb](01_preprocessing.ipynb) to build the IMDb62 lemma counts and validate the supplied FreDraCor and RusLit9 matrices. Set REBUILD to True for a full rebuild from the three bundled archives. The fixed selection preserves source order and group membership. For IMDb62, the notebook reads the review and author identifiers locally from the original ZIP.
 2. Run [02_experiments.ipynb](02_experiments.ipynb) to recompute both tests and write the six result CSVs. Full lemmatization and training can take considerable CPU time.
 3. Run [03_figures.ipynb](03_figures.ipynb) to plot the recomputed results.
 
