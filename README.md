@@ -1,8 +1,8 @@
 # Authorship Attribution Beyond Accuracy: Testing Lexical Profile Stability
 
-This repository accompanies a long paper prepared for submission to Digital Humanities 2027 (DH2027). [Conference website](https://dh2027.adho.org/)
+This repository accompanies a long paper submitted to Digital Humanities 2027 (DH2027). [Conference website](https://dh2027.adho.org/)
 
-The study compares attribution accuracy and the stability of ranked lemma contributions for classical Burrows's Delta, Cosine Delta, logistic regression and linear SVM. We test two changes, replacing a portion of the training texts and varying vocabulary size, across IMDb62, FreDraCor and RusLit9. In these experiments, Cosine Delta combined good attribution accuracy with stable lexical profiles. Higher accuracy alone did not establish that a lexical profile would be stable.
+We test whether authorship attribution models produce stable rankings of lemma contributions when training samples or vocabulary size change. Across three corpora, Cosine Delta combined good accuracy with stable rankings, while high accuracy alone did not guarantee stability.
 
 ## Reproduce the figures
 
