@@ -1,0 +1,5 @@
+.venv/
+.ipynb_checkpoints/
+__pycache__/
+data/raw/imdb62.zip
+data/preprocessed/IMDb62/
