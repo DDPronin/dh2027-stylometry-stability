@@ -16,7 +16,7 @@ python -m pip install -r requirements.txt
 python -m notebook
 ```
 
-Run [03_figures.ipynb](03_figures.ipynb) against the supplied CSVs in [results/](results/) to regenerate the four [paper figures](figures/) at 600 dpi. Figure 1 uses Arial Narrow when available and falls back to DejaVu Sans.
+Run [03_figures.ipynb](03_figures.ipynb) against the supplied CSVs in [results/](results/) to regenerate the four [paper figures](figures/) at 600 dpi.
 
 ## Recompute the experiments
 
